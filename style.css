@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+
+/* HEADER */
+.header.navbar {
+    background-color:transparent !important;
+}
+.navbar {
+    background-color: transparent !important;
+}
+
+/* COVER */
+.fullscreen-cover {
+    min-height: 100vh;
+    /* Ensures the cover fills the viewport height */
+    overflow-y: auto;
+    /* Makes the cover scrollable */
+    position: relative;
+    /* Needed for absolute positioning of child elements */
+    background-image: url('img/IMG_8784.JPG');
+    /* Path to your image */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-size: cover;
+    /* Scales the background image to cover the entire container */
+}
+
+.content-below {
+    padding-top: 50px;
+
+}
+
+/* BODY */
+.content-left-and-right{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.right-allign{
+    text-align: right;
+}
+.left-allign{
+    text-align: left;
+}
