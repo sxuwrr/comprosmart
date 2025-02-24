@@ -1,6 +1,17 @@
 body {
     margin: 0;
+    /* font-family: 'Inter', sans-serif; */
 }
+
+h1,
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+  
 
 
 /* HEADER */
