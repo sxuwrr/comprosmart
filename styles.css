@@ -72,3 +72,26 @@ p {
     border-radius: 10px;
     
 }
+
+/* TRANSITION */
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-in, transform 0.6s ease-in;
+}
+
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-left.show {
+    opacity: 1;
+    transform: translateX(0);
+}
